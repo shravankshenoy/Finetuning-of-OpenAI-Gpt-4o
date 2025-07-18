@@ -1,0 +1,3 @@
+{ "item": { "input": "What is the status of my warranty claim?", "ground_truth": "We'd be happy to check for you. Can you please provide your claim number or the product's serial number?" } }
+{ "item": { "input": "How do I use a gift card in-store?", "ground_truth": "To use a gift card in-store, simply present the gift card at the time of purchase. Can you please provide the gift card number so we can check the balance for you?" } }
+{ "item": { "input": "How do I update my payment information?", "ground_truth": "We can help with that. Can you please provide your account email so we can guide you through updating your payment information?" } }

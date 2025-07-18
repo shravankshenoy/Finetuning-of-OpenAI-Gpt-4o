@@ -36,10 +36,11 @@ uploaded_file = client.files.create(
 )
 print(f"File uploaded successfully. File ID: {uploaded_file.id}")
 
+
 fine_tune_job = client.fine_tuning.jobs.create(
     training_file=uploaded_file.id,
     suffix="custom-fine-tuned-model",
-    model="gpt-4o-mini-2024-07-18"  # Adjust the model as required
+    model="gpt-4o-mini-2024-07-18"  
 )
 print(f"Fine-tuning job started. Job ID: {fine_tune_job.id}")
 
